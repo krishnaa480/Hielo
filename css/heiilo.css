@@ -1,0 +1,338 @@
+body{ 
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: lightgray;
+    
+}
+
+.clearfix::after{ 
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.wraper{ 
+    padding-top: 1px;
+    width: 100%;
+    /* height:500px ; */
+    background-image: url("../img/slide01.jpg");
+    background-size: cover;
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    
+}
+
+.nav{ 
+    width: 100%;
+    height: 60px;
+    /* background-color: red; */
+}
+
+.nav .left{ 
+    /* background-color: yellow; */
+    float: left;
+}
+.nav .left p{ 
+    color: white;
+}
+
+.nav .right{ 
+    /* background-color: violet; */
+    float: right;
+    margin-right: 10px;
+}
+
+.nav .right p{ 
+    color: white;
+}
+
+.nav .right a{ 
+    text-decoration: none;
+    color: white;
+}
+
+.center{ 
+    width: 70%;
+    margin: 0 auto;
+}
+
+.center-hilo{ 
+    color: white;
+    margin-top: 20%;
+    text-align: center;
+}
+
+.center-hilo h1{ 
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+.center-hilo p{ 
+word-spacing: 5px;
+}
+
+.center-hilo hr{ 
+    width: 50%;
+}
+
+/* second */
+
+
+.clearfix::after{ 
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+
+.wraper2{ 
+    /* margin-top: 100px; */
+    width: 100%;
+    /* height: 600px; */
+    background-color: lightgray;
+    padding: 80px 0px;
+}
+
+.center1{ 
+    /* position: relative;
+    top: 70px; */
+    /* background-color: blue;  */
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.center1 .left1 img{ 
+    width: 100%;
+}
+
+.left1{ 
+    float: left;
+    width: 40%;
+    background-color: white;
+    margin-left: 70px;
+    text-align: center;
+    padding: 0 0 20px 0px;
+}
+
+.left1 p{ 
+    color: darkgray;
+    line-height: 17px;
+    font-size: 10px;
+     padding: 0px 20px;
+     color: rgb(0, 0, 0);
+     font-weight: 400;
+}
+
+.wraper2 .center1 .left1 hr{ 
+ width:40%;
+
+}
+
+
+
+
+
+.center1 .right1 img{ 
+    width: 100%;
+}
+
+.right1{ 
+    float: left;
+    width: 40%;
+
+    background-color: white;
+    margin-left: 70px;
+    text-align: center;
+     padding: 0 0 20px 0px;
+}
+
+.right1 p{ 
+    color: rgb(0, 0, 0);
+    line-height: 17px;
+    font-size: 11px;
+    padding: 0px 20px;
+    font-weight: 400;
+}
+
+.align-left{ 
+    text-align: left;
+}
+
+
+.wraper2 .center1 .right1 hr{ 
+    width:40%;
+    
+   }
+
+
+/* button */
+
+button{ 
+    width: 25%;
+    background-color: transparent;
+    border: 1px solid darkgray;
+    padding: 10px 10px 10px 10px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 700;
+
+}
+
+
+
+
+/* full-wraper */
+
+
+.full-wraper{ 
+    padding-top:1px ;
+    padding-bottom:1px ;
+    background-image: url("../img/bg.jpg");
+    width: 100%;
+    /* height: 150px; */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.full-wraper { 
+    /* padding-top: 10px; */
+    text-align: center;
+    color: white;
+}
+.full-wraper p{ 
+    font-weight: 900px;
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+
+.full-wraper  h1{ 
+    font-weight: 900;
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+.full-wraper hr{ 
+    width: 35%;
+}
+
+/* four img */
+
+.fixed-width{ 
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.fixed-width hr{ 
+   width: 35%;
+}
+
+.fourimg img{ 
+width: 45%;
+float: left;
+margin-bottom: 5%;
+border: 10px solid rgb(255, 255, 255);
+}
+
+.fourimg .left{ 
+    margin-left: 2%;
+}
+
+
+.footer{ 
+    background-color: black;
+    width: 100%;
+    height: 150px;
+    color: white;
+}
+
+.footer-center{ 
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 30%;
+    color: gray;
+    
+}
+.footer .footer-center .fa{ 
+    font-size: 25px; 
+    padding-left: 10px;
+}
+
+
+.footer .footer-center .copy{ 
+ font-size: 15px;
+}
+
+@media only screen and ( max-width:800px){ 
+    /* .wraper2{ 
+        width: 100%;
+        margin: 0 auto;
+        clear: both;
+        margin-left: 100px;
+    } */
+
+    .wraper2 .center1 .left1{ 
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .wraper2 .center1 .right1{ 
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .wraper2 .center1 .left1 p{ 
+        font-size: 10px;
+    }
+
+    .wraper2 .center1 .left1 h1{ 
+        font-size: 20px;
+    }
+
+    /* right */
+
+    .wraper2 .center1 .right1 p{ 
+        font-size: 10px;
+    }
+
+    .wraper2 .center1 .right1 h1{ 
+        font-size: 20px;
+    }
+
+    button{ 
+        font-size: 15px;
+    }
+
+    .full-wraper{ 
+        width: 100%;
+
+    }
+
+    .full-wraper p{ 
+        font-size: 10px;
+    }
+
+    .full-wraper h1{ 
+        font-size: 20px;
+    }
+
+
+    .four-img .fixed-width .fourimg img{ 
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+   
+
+}
