@@ -273,12 +273,29 @@ border: 10px solid rgb(255, 255, 255);
 }
 
 @media only screen and ( max-width:800px){ 
-    /* .wraper2{ 
-        width: 100%;
-        margin: 0 auto;
-        clear: both;
-        margin-left: 100px;
-    } */
+
+
+    .wraper .center .center-hilo h1{ 
+        font-size: 30px;
+    }
+
+
+    
+
+    .wraper .nav .left p{ 
+        font-size: 10px;
+        margin-left: 10px;
+    }
+     
+    .wraper .nav .right a{ 
+        font-size: 10px;
+    }
+
+    .wraper .nav .right span{ 
+        font-size: 10px;
+       
+    }
+
 
     .wraper2 .center1 .left1{ 
         width: 100%;
@@ -310,7 +327,8 @@ border: 10px solid rgb(255, 255, 255);
     }
 
     button{ 
-        font-size: 15px;
+        width: 40%;
+        font-size: 10px;
     }
 
     .full-wraper{ 
@@ -319,11 +337,12 @@ border: 10px solid rgb(255, 255, 255);
     }
 
     .full-wraper p{ 
+        width: 100%;
         font-size: 10px;
     }
 
     .full-wraper h1{ 
-        font-size: 20px;
+        font-size: 14px;
     }
 
 
@@ -333,6 +352,32 @@ border: 10px solid rgb(255, 255, 255);
         margin-top: 10px;
         margin-bottom: 10px;
     }
+
+    .four-img .fixed-width p{ 
+        font-size:11px;
+    }
+
+    .four-img .fixed-width h1{ 
+        font-size: 
+        20px;
+    }
+
+
+    .footer .footer-center .fa{ 
+
+        font-size: 15px;
+    }
+
+    .footer .footer-center .copy-right .fa{ 
+        font-size: 10px;
+    }
+
+    .footer .footer-center .copy-right p{
+        font-size: 10px;
+     }
+
+
+
    
 
 }
